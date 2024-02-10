@@ -1,0 +1,10 @@
+
+ResNet-50 is a convolutional neural network that is 50 layers deep. 
+You can load a pretrained version of the neural network trained on more than a million images from the ImageNet database . 
+The pretrained neural network can classify images into 1000 object categories, . As a result, the neural network has learned rich feature representations for a wide range of images. 
+
+Advantages:
+
+This enables much faster training of each layer.
+which reduces the number of parameters and matrix multiplications.
+It uses a stack of three layers rather than two layers.

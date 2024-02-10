@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>predict page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+  <style>
+body {
+  background-color: #e1b7e8;
+}
+</style>
+      <div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>A Method to Automatic Create Dataset for
+Training Object Detection Neural Networks</h1>
+  <p>This method first
+extracts objects from the source images and then combines them as synthetic images. </p> 
+</div>
+<div>
+         <table>
+             <tr>
+                 <th>
+                     Objects
+                 </th>
+             </tr>
+             {% for x in result %}
+             <tr>
+                 <td>
+                     {{ x }}
+                </td>
+            </tr>
+            {% endfor %}
+         </table>
+         </div>
+   </body>
+</html>
